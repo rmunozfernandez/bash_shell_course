@@ -9,3 +9,13 @@ Ejemplo:
 bash -v 2_variables_2.sh
 bash -x 2_variables_2.sh
 ```
+
+### Validación de datos
+
+```bash
+read -n10 -p -s "Ingrese clave:"
+```
+
+-n Limita la entrada de caracteres a la cantidad indicada.
+-p Devuelve el prompt en la misma línea.
+-s No muestra lo escrito en pantalla.
